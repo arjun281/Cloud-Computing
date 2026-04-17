@@ -13,7 +13,7 @@
 
 
 
----
+
 
 ## Step C: Configure Security Groups and Key Pairs
 
@@ -24,10 +24,6 @@
 2.  **Network Settings (Security Groups):** * Ensure **Allow SSH traffic from** is checked.
     * Change the dropdown from "Anywhere" to **My IP**. This is a security best practice that restricts access to only your current computer.
     * Leave "Allow HTTP/HTTPS traffic" unchecked for now unless you plan to host a website immediately.
-
-> **[INSERT SCREENSHOT: SECURITY GROUP CONFIGURATION SHOWING SSH RULE]**
-
----
 
 ## Step D: Connect to the Instance using SSH
 
@@ -59,5 +55,3 @@ To ensure you do not exhaust your free tier hours:
 2.  Select your instance.
 3.  Click **Instance state > Terminate instance**. 
 4.  Confirm termination to permanently delete the VM and stop all billing.
-
-> **[INSERT SCREENSHOT: TERMINATED INSTANCE STATE]**
